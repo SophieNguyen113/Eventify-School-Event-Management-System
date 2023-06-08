@@ -1,0 +1,44 @@
+.background {
+    background-color: #E8EEF1;
+    min-height: 120vh;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50;
+    color: #1E3D58;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 3em 25%;
+    gap: 15px;
+}
+
+.protest-holder {
+    display: grid;
+    grid-template-columns: 20fr 20fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.search-bar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1E3D58;
+    padding-right: 5em;
+    background-color: transparent;
+    width: 50em;
+    height: 3em;
+    border: #1E3D58;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.search-bar:focus {
+    outline: none;
+}

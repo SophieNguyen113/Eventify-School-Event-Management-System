@@ -1,0 +1,41 @@
+.nav-link {
+  text-decoration: none;
+  color: rgb(162, 218, 255);
+  font-size: 3em;
+}
+
+.nav-item {
+  height: auto;
+  width: 4em;
+  text-align: center;
+  transition: 300ms;
+}
+
+.nav-item:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.greeting-text {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  height: auto;
+  width: 4em;
+  white-space: nowrap;
+  text-align: left;
+  transition: 300ms;
+}
+
+.sign-out {
+  font-size: 1.5em;
+  width: fit-content;
+  color: rgb(162, 218, 255);
+  background-color: darkred;
+  border: 2px solid red;
+  transition: 300ms;
+}
+
+.sign-out:hover {
+  color: white;
+  transform: scale(1.05);
+}

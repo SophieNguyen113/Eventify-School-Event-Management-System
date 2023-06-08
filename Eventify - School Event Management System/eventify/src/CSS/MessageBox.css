@@ -1,0 +1,41 @@
+.message-box {
+  position: relative;
+  width: 350px;
+}
+
+.centered-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(223, 240, 255);
+  height: 5em;
+  width: 10em;
+  border-radius: 1em;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  transition: 300ms;
+}
+
+.centered-text:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #1e3d58;
+}
+
+a {
+  text-decoration: none;
+  color: #07376f;
+}
+
+.rotate-up {
+  transform: rotate(-40deg);
+}
+
+.rotate-down {
+  transform: rotate(40deg);
+}
+
+.translate-right {
+  transform: translate(200px, 0px);
+}

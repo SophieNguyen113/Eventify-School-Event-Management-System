@@ -1,0 +1,51 @@
+.protest-container {
+    /* background-color: #1E3D58; */
+    background: #1E3D58;
+    color: white;
+    width: 30em;
+    height: 20em;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.protest-container:hover {
+    transform: scale(1.02);
+}
+ .protestTitle {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: white;
+     font-size: 20px;
+     font-weight: bolder;
+     text-decoration: underline;
+     padding-left: 10px;
+     padding-bottom: 0px;
+ }
+
+ .protestDateandLocation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.protestInfo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.protestTags {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 10px;
+}
