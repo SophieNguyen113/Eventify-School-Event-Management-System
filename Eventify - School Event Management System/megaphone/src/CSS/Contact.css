@@ -1,0 +1,68 @@
+.card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #1e3d58;
+    border-radius: 5px;
+    padding: 2% 2%;
+    transform: scale(0.8);
+}
+
+.img-crop {
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.profile-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.email-link {
+    text-decoration: none;
+    color: white;
+}
+
+.env {
+    color:white;
+    align-self: center;
+    padding-right: 5px;
+}
+  
+.card:not(:hover) {
+    transition-duration: 0.3s;
+    box-shadow: 0 0 0rem #2b5477;
+}
+
+.card:hover {
+    z-index: 9;
+    transform: scale(0.85);
+    transition-duration: 0.3s;
+    box-shadow: 0 0 15px 10px #2b5477;
+}
+
+/* .card:hover {
+    z-index: 9;
+    transform: scale(2);
+    transition-duration: 0.3s;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+} */

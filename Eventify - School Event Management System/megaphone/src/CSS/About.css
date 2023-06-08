@@ -1,0 +1,20 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+
+.contact-card {
+    margin: 2% 2%;
+}
+
+.header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e3d58;
+    display: flex;
+    justify-content: center;
+    text-justify: center;
+    align-items: center;
+    text-align: center;
+}

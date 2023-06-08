@@ -1,0 +1,29 @@
+.background {
+  background-color: #48bbc2;
+  min-height: 110vh;
+}
+
+.inline-block {
+  padding-top: 10%;
+  display: flex;
+}
+
+.logo {
+  width: 500px;
+}
+
+.messages {
+  transform: translate(0px, -60px);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.images {
+  transform-origin: 0 0;
+}
+
+.label {
+  position: absolute;
+  transform: translate(80px, -50px);
+}
